@@ -1,4 +1,4 @@
-package ni.edu.uam.Facturacion.run;
+package ni.edu.uam.facturacion.run;
 
 import org.openxava.util.*;
 
@@ -8,11 +8,11 @@ import org.openxava.util.*;
  * Con OpenXava Studio/Eclipse: Botón derecho del ratón > Run As > Java Application
  */
 
-public class Facturacion {
+public class facturacion {
 
 	public static void main(String[] args) throws Exception {
-		DBServer.start("Facturacion-db"); // Para usar tu propia base de datos comenta esta línea y configura src/main/webapp/META-INF/context.xml
-		AppServer.run("Facturacion"); // Usa AppServer.run("") para funcionar en el contexto raíz
+		DBServer.start("facturacion-db"); // Para usar tu propia base de datos comenta esta línea y configura src/main/webapp/META-INF/context.xml
+		AppServer.run("facturacion"); // Usa AppServer.run("") para funcionar en el contexto raíz
 	}
 
 }

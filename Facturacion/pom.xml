@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ni.edu.uam</groupId>
-	<artifactId>Facturacion</artifactId>
+	<artifactId>facturacion</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -16,7 +16,6 @@
 	</properties>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>org.openxava</groupId>
 			<artifactId>openxava</artifactId>
@@ -98,7 +97,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>Facturacion</finalName>
+		<finalName>facturacion</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

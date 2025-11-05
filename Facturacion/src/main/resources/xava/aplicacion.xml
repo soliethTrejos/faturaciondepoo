@@ -2,7 +2,7 @@
 
 <!DOCTYPE aplicacion SYSTEM "dtds/aplicacion.dtd">
 
-<aplicacion nombre="Facturacion"> 
+<aplicacion nombre="facturacion"> 
 	
 	<!--
 	Un módulo por defecto se asume para cada

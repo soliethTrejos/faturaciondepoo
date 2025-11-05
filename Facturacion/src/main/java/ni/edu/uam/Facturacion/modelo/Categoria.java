@@ -1,4 +1,4 @@
-package ni.edu.uam.Facturacion.modelo;
+package ni.edu.uam.facturacion.modelo;
 
 import javax.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
@@ -9,8 +9,8 @@ import lombok.*;
 public class Categoria {
 
     @Id
-    @Hidden
-    @GeneratedValue(generator="system-uuid")
+    @Hidden // La propiedad no se muestra al usuario. Es un identificador interno
+    @GeneratedValue(generator="system-uuid") // Identificador Universal Único (1)
     @GenericGenerator(name="system-uuid", strategy = "uuid")
     @Column(length=32)
     String oid;

@@ -1,14 +1,13 @@
-package ni.edu.uam.Facturacion.modelo;
+package ni.edu.uam.facturacion.modelo;
 
 import javax.persistence.*;
 import lombok.*;
-import org.openxava.annotations.NoFrame;
 
-@Embeddable
+@Embeddable // Usamos @Embeddable en vez de @Entity
 @Getter @Setter
 public class Direccion {
 
-    @Column(length = 30)
+    @Column(length = 30) // Los miembros se anotan igual que en las entidades
     String viaPublica;
 
     @Column(length = 5)
@@ -19,6 +18,5 @@ public class Direccion {
 
     @Column(length = 30)
     String provincia;
-
 
 }
